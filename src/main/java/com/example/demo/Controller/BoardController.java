@@ -34,7 +34,7 @@ public class BoardController {
         return "post.html";
     }
 
-    @PostMapping("/postproc.do")A
+    @PostMapping("/postproc.do")
     public String PostprocPage(BoardDTO dto, Model model){
         //파라미터받기
         
